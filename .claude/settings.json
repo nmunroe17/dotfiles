@@ -1,0 +1,24 @@
+{
+  "env": {
+    "RTL_TOOLS_DIR": "/home/neil/.local/rtl-tools",
+    "VERILATOR_ROOT": "/home/neil/.local/rtl-tools",
+    "PATH": "/home/neil/.local/rtl-tools/bin:/home/neil/.local/rtl-tools/oss-cad-suite/bin:/home/neil/.cargo/bin:/home/neil/.venvs/rtl/bin:/home/neil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh",
+    "padding": 0
+  },
+  "effortLevel": "high",
+  "preferences": {
+    "inputMode": "vim"
+  },
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    }
+  }
+}
